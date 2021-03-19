@@ -1,0 +1,18 @@
+body {
+    background-color: #9E906C;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #022B9E;
+}
+
+.Split {
+    column-count: 3;
+    column-gap: 40px;
+    column-rule: 1px solid #FFE9B3;
+}
+
+.Split p {
+    color: #EBD08Ds;
+}
