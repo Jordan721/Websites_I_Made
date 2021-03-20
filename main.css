@@ -1,18 +1,58 @@
 body {
-    background-color: #9E906C;
+    background-color: black !important;
+    /* New for bootstrap to keep backround color use !important */
 }
 
-h1, h2 {
-    text-align: center;
-    color: #022B9E;
+h1,
+h2,
+h3,
+h4,
+h5 {
+    text-align: center !important;
+    color: #73E6D6 !important;
+    font-size: 25px !important;
 }
 
-.Split {
+.normaltext {
     column-count: 3;
     column-gap: 40px;
-    column-rule: 1px solid #FFE9B3;
+    column-rule: 5px solid#73E6D6;
 }
 
-.Split p {
-    color: #EBD08Ds;
+.normaltext p {
+    color: #8DA6EB;
+}
+
+.boldtext {
+    column-count: 3;
+    column-gap: 40px;
+    column-rule: 5px solid#73E6D6;
+}
+
+.boldtext p {
+    color: #8DA6EB;
+    font-weight: bold;
+}
+
+.italictext {
+    column-count: 3;
+    column-gap: 40px;
+    column-rule: 5px solid#73E6D6;
+}
+
+.italictext p {
+    color: #8DA6EB;
+    font-style: italic;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+.links {
+    text-align: center;
+    font-size: 25px;
 }
