@@ -1,6 +1,5 @@
 body {
     background-color: black !important;
-    /* New for bootstrap to keep backround color use !important */
 }
 
 h1,
@@ -8,40 +7,39 @@ h2,
 h3,
 h4,
 h5 {
-    text-align: center !important;
-    color: #73E6D6 !important;
-    font-size: 25px !important;
+    color: #73e6d6 !important;
+    text-align: center;
 }
 
 .normaltext {
-    column-count: 3;
+    column-count: 4;
     column-gap: 40px;
-    column-rule: 5px solid#73E6D6;
+    column-rule: 5px solid aquamarine !important;
 }
 
 .normaltext p {
-    color: #8DA6EB;
+    color: aquamarine !important;
 }
 
 .boldtext {
-    column-count: 3;
+    column-count: 4;
     column-gap: 40px;
-    column-rule: 5px solid#73E6D6;
-}
-
-.boldtext p {
-    color: #8DA6EB;
+    column-rule: 5px solid aquamarine !important;
     font-weight: bold;
 }
 
+.boldtext p {
+    color: aquamarine;
+}
+
 .italictext {
-    column-count: 3;
+    column-count: 4;
     column-gap: 40px;
-    column-rule: 5px solid#73E6D6;
+    column-rule: 5px solid aquamarine !important;
 }
 
 .italictext p {
-    color: #8DA6EB;
+    color: aquamarine;
     font-style: italic;
 }
 
